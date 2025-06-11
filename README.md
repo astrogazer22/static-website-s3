@@ -27,7 +27,11 @@ terraform apply
 4. Destroy the deployment :
 terraform destroy
 
+<pre>
 ## Security
+<code>
 ~ Make sure to add the credentials for the provider before initialization. It's recommended to store the credentials in Terraform Vault.
 ~ Never store secrets or sensitive data in Terraform files or state.
 ~ .tfvars files should not be committed to version control.
+</code>
+</pre>
