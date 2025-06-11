@@ -3,15 +3,17 @@
 # static-website-s3
 This repository contains Terraform code to provision an AWS S3 bucket configured for static website hosting.
 
+<pre>
 ## Project Structure
-'''
+<code>
 terraform-aws-static-website/
 |----main.tf  
 |----variables.tf  
 |----outputs.tf
 |----.gitignore
 |____README.md
-
+</code>
+</pre>
 ## Usage
 1. Initialize the project :
 terraform init
