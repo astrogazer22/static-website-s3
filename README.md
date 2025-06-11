@@ -5,10 +5,15 @@ This repository contains Terraform code to provision an AWS S3 bucket configured
 
 ## Project Structure
 '''text
+
 |----main.tf  
+
 |----variables.tf  
+
 |----outputs.tf
+
 |----.gitignore
+
 |____README.md
 
 ## Usage
